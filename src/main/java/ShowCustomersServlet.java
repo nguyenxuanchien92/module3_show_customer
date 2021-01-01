@@ -13,13 +13,13 @@ public class ShowCustomersServlet extends HttpServlet {
     private static List<Customer> listCustomer = new ArrayList<>();
 
     static {
-        listCustomer.add(new Customer("Hạnh", "09-09-2000", "Hà Nội", "images/hanh.jpg"));
-        listCustomer.add(new Customer("Hồng", "09-09-2000", "Hà Nội", "images/hong.jpg"));
-        listCustomer.add(new Customer("Nga", "09-09-2000", "Hà Nội", "images/nga.jpg"));
-        listCustomer.add(new Customer("Liên", "09-09-2000", "Hà Nội", "images/lien.jpg"));
-        listCustomer.add(new Customer("Trang", "09-09-2000", "Hà Nội", "images/trang.jpg"));
-        listCustomer.add(new Customer("Vi", "09-09-2000", "Hà Nội", "images/vi.jpg"));
-        listCustomer.add(new Customer("Hạ Anh", "09-09-2000", "Hà Nội", "images/anh.jpg"));
+        listCustomer.add(new Customer("Hạnh", "09-09-2000", "Hà Nội", "resources/images/hanh.jpg"));
+        listCustomer.add(new Customer("Hồng", "09-09-2000", "Hà Nội", "resources/images/hong.jpg"));
+        listCustomer.add(new Customer("Nga", "09-09-2000", "Hà Nội", "resources/images/nga.jpg"));
+        listCustomer.add(new Customer("Liên", "09-09-2000", "Hà Nội", "resources/images/lien.jpg"));
+        listCustomer.add(new Customer("Trang", "09-09-2000", "Hà Nội", "resources/images/trang.jpg"));
+        listCustomer.add(new Customer("Vi", "09-09-2000", "Hà Nội", "resources/images/vi.jpg"));
+        listCustomer.add(new Customer("Hạ Anh", "09-09-2000", "Hà Nội", "resources/images/anh.jpg"));
     }
 
     @Override
