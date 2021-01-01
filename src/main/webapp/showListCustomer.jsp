@@ -10,6 +10,7 @@
 <html>
   <head>
     <title>List Customers</title>
+    <link rel="stylesheet" href="showListCustomer.css">
   </head>
   <body>
     <table>
@@ -28,7 +29,7 @@
             <td>${customer.dob}</td>
             <td>${customer.address}</td>
             <td>
-              <img src="${customer.srcImg}"/>
+              <img src="${customer.srcImg}" alt="This is img of customer"/>
             </td>
           </tr>
         </c:forEach>
